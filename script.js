@@ -417,11 +417,6 @@ continueBtn.addEventListener('click', () => {
   document.getElementById('envelope-scene').classList.add('active');
 });
 
-document.getElementById('skip-btn').addEventListener('click', () => {
-  rouletteScene.classList.remove('active');
-  document.getElementById('envelope-scene').classList.add('active');
-});
-
 // ───────── Envelope Interaction ─────────
 const envelope = document.getElementById('envelope');
 const envelopeScene = document.getElementById('envelope-scene');
@@ -453,8 +448,6 @@ card.addEventListener('click', () => {
 
   card.classList.add('opened');
   playCardOpenSound();
-
-  startBgMusic();
 
   // Burst of hearts on open
   spawnHeartBurst();
