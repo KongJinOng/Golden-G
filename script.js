@@ -51,8 +51,8 @@ class Particle {
     this.type = Math.random() > 0.4 ? 'heart' : 'sparkle';
     this.rotation = Math.random() * Math.PI * 2;
     this.rotationSpeed = (Math.random() - 0.5) * 0.02;
-    // Warm scrapbook color palette
-    const colors = ['#d4a0a0', '#c0605a', '#d4b896', '#b8ccb0', '#c8b0d8', '#dcc890'];
+    // Cyberpunk neon color palette
+    const colors = ['#00ffff', '#ff00ff', '#00ff00', '#8b00ff', '#ff0080', '#00ffaa'];
     this.color = colors[Math.floor(Math.random() * colors.length)];
   }
 
