@@ -331,13 +331,10 @@ async function playLandSound() {
 
 // ───────── Reasons Roulette ─────────
 const REASONS = [
-  'Your niche hobbies (my lil book worm & stationary hoarder)',
-  "Pentatonic P*ssy",
-  'You got a free bag of chips',
-  "We're like Jessie & James from Team Rocket",
-  "Imma stick with you through thick n thin",
-  'I like how you make me feeelll',
-  'That green card frfr',
+  'Yall autistic asf fr',
+  "Yall cute",
+  'Yall are high tier normies',
+  "Yall are not degloved",
 ];
 
 const rouletteScene = document.getElementById('roulette-scene');
