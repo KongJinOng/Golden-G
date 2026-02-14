@@ -470,6 +470,8 @@ body {
 
 .card-message {
   text-align: center;
+  width: 100%;
+  max-width: 100%;
 }
 
 .greeting {
@@ -926,16 +928,20 @@ body {
   }
 
   .card {
-    width: 415px;
-    height: 680px;
+    width: 90vw;
+    max-width: 415px;
+    height: auto;
+    min-height: 600px;
   }
 
   .card-title {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+    letter-spacing: 2px;
   }
 
   .card-name {
-    font-size: 2.2rem;
+    font-size: 2rem;
+    letter-spacing: 2px;
   }
 
   .card-hint {
@@ -944,22 +950,14 @@ body {
     margin-top: 16px;
   }
 
-  .greeting {
-    font-size: 1.4rem;
-  }
-
-  .message-body {
-    font-size: 1rem;
-    line-height: 1.45;
-    margin-bottom: 8px;
-  }
-
   .card-inside {
-    padding: 20px 14px;
+    padding: 24px 16px;
   }
 
   .card-message {
-    padding-left: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
   }
 
   .greeting {
@@ -967,17 +965,56 @@ body {
     margin-bottom: 10px;
   }
 
+  .message-body {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+
   .closing {
     margin-top: 10px;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .signature {
+    font-size: 1.8rem;
   }
 
   .roulette-title {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
   }
 
   .roulette-machine {
-    width: 270px;
+    width: 90vw;
+    max-width: 300px;
+  }
+
+  .roulette-window {
+    height: 80px;
+  }
+
+  .roulette-item {
+    font-size: 1.1rem;
+    padding: 0 12px;
+    text-align: center;
+  }
+
+  .spin-btn {
+    font-size: 1.1rem;
+    padding: 10px 24px;
+  }
+
+  .continue-btn {
+    font-size: 1rem;
+    padding: 8px 20px;
+  }
+
+  .prompt-text {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
   }
 
   .sticker {
